@@ -396,3 +396,75 @@ nav{
     font-weight: 600;
     cursor: pointer;
 }
+
+footer{
+    display: flex;
+}
+
+.footerLeft{
+    flex: 1.5;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.fMenuTitle{
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.fMenuTitleRight{
+    font-size: 16px;
+    margin-left: 200px;
+}
+
+.fList{
+    padding: 0;
+    list-style: none;
+    margin-left: 70px;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight{
+    flex: 1.5;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.fInput{
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+   
+}
+
+.fIcons{
+    display: flex;
+    margin-left: 200px;
+}
+
+.fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 200px;
+}
