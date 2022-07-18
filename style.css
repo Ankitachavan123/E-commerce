@@ -366,3 +366,33 @@ nav{
     -moz-box-shadow: -7px -4px 20px -1px rgba(18,17,18,0.67);
      box-shadow: -7px -4px 20px -1px rgba(18,17,18,0.67);
 }
+
+.newSeason{
+    display: flex;
+}
+
+.nsItem{
+    flex: 1;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nsImg{
+    width: 100%;
+    height: 500px;
+}
+
+.nsTitle{
+    font-size: 40px;
+}
+
+.nsButton{
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
