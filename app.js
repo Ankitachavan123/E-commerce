@@ -125,9 +125,9 @@ currentProductColors.forEach((color,index)=>{         //this is to get each shoo
 //     });
 // });
 
-currentProductSizes.forEach((size, index) => {
+currentProductSizes.forEach((size, index) => {             //to select size 42 43 44
     size.addEventListener("click", () => {
-      currentProductSizes.forEach((size) => {
+      currentProductSizes.forEach((size) => {               //this is for original state of button
         size.style.backgroundColor = "white";
         size.style.color = "black";
       });
